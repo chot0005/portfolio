@@ -133,6 +133,7 @@ body {
 .cta-btn:hover,
 .cta-btn:focus {
 	color: var(--bs-tertiary);
+	text-decoration: none;
 }
 
 .uk-link,
