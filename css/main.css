@@ -42,27 +42,21 @@ body {
 }
 
 /* responsive banner */
-/* @media (max-width: 428px) {
+@media (max-width: 959px) {
 	.banner {
-		background: gray url(../images/banner-428_x_285.jpg) no-repeat center;
+		background: gray url(../images/banner-960_x_640.jpg) no-repeat center;
+		background-blend-mode: multiply;
+		background-size: cover;
+		background-color: rgba(0, 0, 0, 0.5);
 	}
 }
 
-@media (max-width: 743px) {
-	.banner {
-		background: gray url(../images/banner-744_x_496.jpg) no-repeat center;
-	}
-}
-
-@media (min-width: 744px) {
+/* @media (min-width: 960px) {
 	.banner {
 		background: gray url(../images/banner-372_x_248.jpg) no-repeat center;
-	}
-}
-
-@media (min-width: 1440px) {
-	.banner {
-		background: gray url(../images/banner-720_x_480.jpg) no-repeat center;
+		background-blend-mode: multiply;
+		background-size: cover;
+		background-color: rgba(0, 0, 0, 0.5);
 	}
 } */
 
@@ -129,16 +123,21 @@ body {
 	--bs-btn-disabled-border-color: none;
 }
 
-.cta-btn a,
-.cta-btn a:link,
-.cta-btn a:visited {
+.cta-btn,
+.cta-btn:link,
+.cta-btn:visited {
 	color: var(--bs-primary);
 	text-decoration: none;
 }
 
-.cta-btn a:hover,
-.cta-btn a:focus {
+.cta-btn:hover,
+.cta-btn:focus {
 	color: var(--bs-tertiary);
+}
+
+.uk-link,
+a {
+	color: var(--bs-primary);
 }
 
 .title-color {

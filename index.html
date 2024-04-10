@@ -56,8 +56,7 @@
                       aria-label="homepage">Home</a>
                   </li>
                   <li class="nav-item mx-2">
-                    <a class="nav-link border-3 border-secondary" href="work.html"
-                      aria-label="work page">Work</a>
+                    <a class="nav-link border-3 border-secondary" href="work.html" aria-label="work page">Work</a>
                   </li>
                   <!-- <li class="nav-item dropdown mx-2">
                     <a class="nav-link dropdown-toggle" href="work.html" role="button" data-bs-toggle="dropdown"
@@ -77,7 +76,8 @@
                     <a class="nav-link border-3 border-secondary" href="about.html" aria-label="about page">About</a>
                   </li>
                   <li class="nav-item mx-2">
-                    <a class="nav-link border-3 border-secondary" href="contact.html" aria-label="contact page">Contact</a>
+                    <a class="nav-link border-3 border-secondary" href="contact.html"
+                      aria-label="contact page">Contact</a>
                   </li>
                   <!-- resume btn -->
                   <div class="d-flex flex-lg-row justify-content-center align-items-center gap-4 mx-2">
@@ -98,16 +98,14 @@
             where stories come to life through the lens of our camera. From heartfelt weddings to dynamic
             corporate
             videos, we specialize in creating cinematic experiences that leave a lasting impression.</p>
-          <button type="button" class="btn btn-primary border-0 rounded-5 px-4 py-3 mt-3 cta-btn"><a href="work.html"
-              aria-label="discover now">Discover Now</a></button>
+          <a href="work.html" class="btn btn-primary border-0 rounded-5 px-4 py-3 mt-3 cta-btn" aria-label="discover now">Discover Now</a>
         </div>
-      </div>
     </section>
   </header>
   <main>
     <!-- work section -->
-    <section>
-      <div class="container-xxl bg-primary py-5" id="main">
+    <section class="bg-primary">
+      <div class="container-xl py-5" id="main">
         <div class="row m-5 mt-3">
           <div class="col-8 p-0">
             <h2 class="title-color">Explore Inspiring Creations</h2>
@@ -117,7 +115,7 @@
           </div>
         </div>
         <!-- cards -->
-        <div class="container-xxl">
+        <div class="container-xl">
           <div class="row g-4 mx-4 mb-3">
             <div class="col-12 col-lg-4">
               <div class="card border-0 zoom-in-out-box">
@@ -175,12 +173,13 @@
       </div>
     </section>
     <!-- about section -->
-    <section>
-      <div class="container-xxl bg-light text-center py-2 px-5">
+    <section class="bg-secondary">
+      <div class="container-xl text-center py-2 px-5">
         <picture>
           <source srcset="images/portrait.png 1x" media="(max-width: 959px)" />
           <source srcset="images/portrait-480_x_480.jpg 1x" media="(min-width: 960px)" />
-          <img src="images/portrait.png" alt="Nichada's Portrait" class="rounded-circle mx-auto d-block mt-5 about-portrait">
+          <img src="images/portrait.png" alt="Nichada's Portrait"
+            class="rounded-circle mx-auto d-block mt-5 about-portrait">
         </picture>
         <!-- <img src="images/portrait.png" alt="Nichada's Portrait" class="rounded-circle mx-auto d-block mt-5"> -->
         <div class="m-5 px-5">
@@ -195,18 +194,20 @@
     </section>
   </main>
   <!-- site footer -->
-  <footer class="bg-dark py-4">
-    <div class="container-xl row">
-      <div class="col-8">
-        <p class="my-2 ps-4 fs-6">&copy; Copyright 2024 Nichada Creative Studio. All rights reserved.</p>
-      </div>
-      <div class="col-4 text-end m-0 p-0 align-self-center">
-        <a href="https://www.facebook.com/nichada.chotapisitkul"><img src="images/icon-facebook.svg"
-            alt="Facebook Icon"></a>
-        <a href="https://www.youtube.com/nichada.c"><img src="images/icon-youtube.svg" alt="Youtube Icon"
-            class="px-2"></a>
-        <a href="https://ca.linkedin.com/nichada.chotapisitkul"><img src="images/icon-linkedin.svg"
-            alt="Linkedin Icon"></a>
+  <footer class="bg-primary py-4">
+    <div class="container-xl">
+      <div class="row pe-5">
+        <div class="col-8">
+          <p class="my-2 ps-4 fs-6">&copy; Copyright 2024 Nichada Creative Studio. All rights reserved.</p>
+        </div>
+        <div class="col-4 text-end m-0 p-0 align-self-center">
+          <a href="https://www.facebook.com/nichada.chotapisitkul"><img src="images/icon-facebook.svg"
+              alt="Facebook Icon"></a>
+          <a href="https://www.youtube.com/nichada.c"><img src="images/icon-youtube.svg" alt="Youtube Icon"
+              class="px-2"></a>
+          <a href="https://ca.linkedin.com/nichada.chotapisitkul"><img src="images/icon-linkedin.svg"
+              alt="Linkedin Icon"></a>
+        </div>
       </div>
     </div>
   </footer>
