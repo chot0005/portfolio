@@ -104,6 +104,9 @@ body {
 		background-color: darkgray;
 		backdrop-filter: blur(10px);
 	}
+	.offcanvas-body:visited {
+		background-color: var(--bs-secondary);
+	}
 }
 
 .btn-primary {
