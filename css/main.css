@@ -79,6 +79,10 @@ body {
 	border-bottom: 3px solid var(--bs-tertiary);
 }
 
+.nav-dropdown {
+	text-align: center;
+}
+
 .nav-dropdown li a {
 	color: var(--bs-secondary);
 	text-decoration: none;
@@ -292,6 +296,10 @@ footer p {
 		border-bottom: 1px solid var(--bs-primary);
 	}
 
+	.nav-dropdown {
+		text-align: start;
+	}
+
 	.nav-item {
 		padding-bottom: 1em;
 	}
@@ -304,6 +312,10 @@ footer p {
 
 	.banner-text p {
 		padding-right: 8em;
+	}
+
+	.nav-dropdown {
+		text-align: start;
 	}
 
 	.card-block {
