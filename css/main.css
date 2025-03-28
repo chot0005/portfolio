@@ -35,7 +35,7 @@ body {
 }
 
 .banner {
-	background: #222629 url(../images/banner2.jpg) no-repeat center;
+	background: #222629 url(../images/banner-world.jpg) no-repeat center;
 	background-blend-mode: overlay;
 	background-size: cover;
 	background-color: rgba(0, 0, 0, 0.5);
