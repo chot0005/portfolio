@@ -296,10 +296,6 @@ footer p {
 		border-bottom: 1px solid var(--bs-primary);
 	}
 
-	.nav-dropdown {
-		text-align: start;
-	}
-
 	.nav-item {
 		padding-bottom: 1em;
 	}
